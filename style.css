@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding-bottom: 10px;
+    margin-top: auto;
+    text-align: left;
+}
+
+form {
+    text-align: center;
+    line-height: 30px;
+    overflow: scroll;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+.title {
+    color: #000;
+    font-family: 'Gill Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header {
+    color: #000;
+    font-size: 36px;
+    font-family: 'Gill Sans';
+}
+
+.custom-input {
+    width: 250px;
+    height: 54px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.custom-input::placeholder {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    color: #525252;
+    text-align: center;
+  }
+
+input[type="text"] {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.submit-button {
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #3491FF;
+
+    width: 250px;
+    height: 54px; 
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.submit-button:hover{
+    background-color: #1d83ff;
+}
+
+.pre-prompt {
+    font-family: 'Gill Sans';
+    font-size: 16px;
+    color: #000000;
+}
+
+.custom-select {
+    width: 250px;
+    height: 54px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #ffffff;
+
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.created {
+    padding: 0px;
+    text-align: right
+}
+
+#steps {
+    padding: 0px 20px 0px;
+}
