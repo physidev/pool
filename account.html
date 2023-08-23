@@ -19,25 +19,60 @@
         <main>
             
             <section id="account">
-                <form action="submission.html" method="POST">
+                <form action="plan.html" method="POST">
                     <h2 class="title">create account</h2>
 
-                    <section class="account">
-                        <label for="username"></label>
-                        <input type="text" id="username" class="custom-input" name="username" placeholder="name">
+                    <section id="account">
+                        <input type="text" id="username" class="custom-input" name="username" placeholder="name" required>
                     </section>
 
-                    <section class="phone">
-                        <label for="pnumber"></label>
-                        <input type="text" id="pnumber" class="custom-input" name="pnumber" placeholder="phone number">
+                    <section id="phone">
+                        <input type="tel" id="pnumber" class="custom-input" name="pnumber" placeholder="US phone number" pattern="[0-9]{10}" required>
                     </section>
 
-                    <section class="cnetID">
-                        <label for="cnet"></label>
-                        <input type="text" id="cnet" class="custom-input" name="cnet" placeholder="beginning of uchicago email">
+                    <section id="email">
+                        <input type="email" id="email" class="custom-input" name="email" placeholder="school email" required>
                     </section>
 
-                    <button type="submit" class="submit-button">create</button>
+                    <section id="school">
+                        <select name="school" id="school" class="custom-select" required>
+                            <option value="Brown">Brown</option>
+                            <option value="Caltech">Caltech</option>
+                            <option value="Columbia">Columbia</option>
+                            <option value="Cornell">Cornell</option>
+                            <option value="Dartmouth">Dartmouth</option>
+                            <option value="Duke">Duke</option>
+                            <option value="Emory">Emory</option>
+                            <option value="Georgetown">Georgetown</option>
+                            <option value="Harvard">Harvard</option>
+                            <option value="JohnsHopkins">Johns Hopkins</option>
+                            <option value="UMich">UMich</option>
+                            <option value="MIT">MIT</option>
+                            <option value="Northwestern">Northwestern</option>
+                            <option value="NotreDame">Notre Dame</option>
+                            <option value="Princeton">Princeton</option>
+                            <option value="Rice">Rice</option>
+                            <option value="Stanford">Stanford</option>
+                            <option value="Chicago">UChicago</option>
+                            <option value="Berkeley">UC Berkeley</option>
+                            <option value="UCLA">UCLA</option>
+                            <option value="USC">USC</option>
+                            <option value="UPenn">UPenn</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Vanderbilt">Vanderbilt</option>
+                            <option value="WashU">WashU</option>
+                            <option value="Yale">Yale</option>
+                        </select>
+                    </section>
+
+                    <section id="direction">
+                        <select id="direction" class="custom-select" name="direction" placeholder="name" required>
+                            <option value="toairport">school to airport</option>
+                            <option value="toschool">airport to school</option>
+                        </select>
+                    </section>
+
+                    <button type="submit" class="submit-button">continue to plan</button>
                 </form>
 
         </main>
@@ -52,5 +87,6 @@
         <p class="created": 0>by Diego and Pranav @ UChicago</p>
         </footer>
 
+        
     </body>
 </html>

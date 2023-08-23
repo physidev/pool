@@ -19,12 +19,13 @@
         <main>
 
             <section id="plan">
-                <form action="submissions.html" method="POST"> 
+                <form action="confirm.html" method="POST">
                     <h2 class="title">enter plans</h2>
 
-                <section class="depart">
+                <section id="depart">
                     <label for="depart" class="pre-prompt">leaving from:</label>
-                    <select name="depart" id="depart" class="custom-select">
+                    <select name="depart" id="depart" class="custom-select" required>
+                        <option value="Leaving From" disabled selected>Leaving From</option>
                         <option value="North">North</option>
                         <option value="Max P">Max P</option>
                         <option value="Snell-Hitchcock">Snell-Hitchcock</option>
@@ -34,17 +35,17 @@
                     </select>
                 </section>
 
-                <section class="airport">
+                <section id="airport">
                     <label for="airport" class="pre-prompt">going to: </label>
-                    <select name="airport" id="airport" class="custom-select">
+                    <select name="airport" id="airport" class="custom-select" required>
                         <option value="Midway">Midway</option>
                         <option value="O'Hare">O'Hare</option>
                     </select>
                 </section>
 
-                <section class="time">
+                <section id="time">
                     <label for="time" class="pre-prompt">leaving the <b>dorm</b> at this time:</label>
-                    <select name="time" id="time" class="custom-select">
+                    <select name="time" id="time" class="custom-select" required>
                         <option value="00:00">12:00 AM</option>
                         <option value="00:30">12:30 AM</option>
                         <option value="01:00">01:00 AM</option>
@@ -96,14 +97,15 @@
                     </select>
                 </section>
 
-                <section class="date">
+                <section id="date">
                     <label for="date" class="pre-prompt">on this date:</label>
-                    <input type="date" id="date" name="date" class="custom-select">
+                    <input type="date" id="date" name="date" class="custom-select" required>
                 </section>
 
-                <button type="submit" class="submit-button">schedule</button>
+                <button type="submit" class="submit-button">view plan</button>
                 
                 </form>
+
 
         </main>
 

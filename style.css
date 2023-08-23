@@ -43,8 +43,8 @@ p {
 }
 
 .custom-input {
-    width: 250px;
-    height: 54px;
+    width: 242px;
+    height: 40px;
     margin-bottom: 20px;
 
     border-radius: 10px;
@@ -66,19 +66,33 @@ input[type="text"] {
     text-align: center;
 }
 
+input[type="email"] {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+input[type="tel"] {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
 .submit-button {
     border-radius: 10px;
     border: 2px solid #000;
     background: #3491FF;
 
     width: 250px;
-    height: 54px; 
+    height: 40px; 
     cursor: pointer;
 
     color: #FFF;
     text-align: center;
     font-family: 'Gill Sans';
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -96,7 +110,7 @@ input[type="text"] {
 
 .custom-select {
     width: 250px;
-    height: 54px;
+    height: 40px;
     margin-bottom: 20px;
 
     border-radius: 10px;
