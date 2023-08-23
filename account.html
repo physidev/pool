@@ -34,10 +34,12 @@
                         <input type="email" id="email" class="custom-input" name="email" placeholder="school email" required>
                     </section>
 
-                    <section id="school">
+                    <section id="selectschool">
                         <select name="school" id="school" class="custom-select" required>
+                            <option value="school" disabled selected style="color: #525252;">school</option>
                             <option value="Brown">Brown</option>
                             <option value="Caltech">Caltech</option>
+                            <option value="Chicago">UChicago</option>
                             <option value="Columbia">Columbia</option>
                             <option value="Cornell">Cornell</option>
                             <option value="Dartmouth">Dartmouth</option>
@@ -50,14 +52,13 @@
                             <option value="MIT">MIT</option>
                             <option value="Northwestern">Northwestern</option>
                             <option value="NotreDame">Notre Dame</option>
+                            <option value="UPenn">UPenn</option>
                             <option value="Princeton">Princeton</option>
                             <option value="Rice">Rice</option>
                             <option value="Stanford">Stanford</option>
-                            <option value="Chicago">UChicago</option>
                             <option value="Berkeley">UC Berkeley</option>
                             <option value="UCLA">UCLA</option>
                             <option value="USC">USC</option>
-                            <option value="UPenn">UPenn</option>
                             <option value="Virginia">Virginia</option>
                             <option value="Vanderbilt">Vanderbilt</option>
                             <option value="WashU">WashU</option>
@@ -65,10 +66,12 @@
                         </select>
                     </section>
 
-                    <section id="direction">
+                    <section id="selectdirection">
                         <select id="direction" class="custom-select" name="direction" placeholder="name" required>
+                            <option value="direction" disabled selected>direction</option>
                             <option value="toairport">school to airport</option>
                             <option value="toschool">airport to school</option>
+                            <option value="existing">edit existing trip</option>
                         </select>
                     </section>
 

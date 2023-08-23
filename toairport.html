@@ -22,10 +22,9 @@
                 <form action="confirm.html" method="POST">
                     <h2 class="title">enter plans</h2>
 
-                <section id="depart">
-                    <label for="depart" class="pre-prompt">leaving from:</label>
+                <section id="toairport">
                     <select name="depart" id="depart" class="custom-select" required>
-                        <option value="Leaving From" disabled selected>Leaving From</option>
+                        <option value="leaving from" disabled selected>leaving from</option>
                         <option value="North">North</option>
                         <option value="Max P">Max P</option>
                         <option value="Snell-Hitchcock">Snell-Hitchcock</option>
@@ -36,15 +35,15 @@
                 </section>
 
                 <section id="airport">
-                    <label for="airport" class="pre-prompt">going to: </label>
                     <select name="airport" id="airport" class="custom-select" required>
+                        <option value="going to" disabled selected>going to</option>
                         <option value="Midway">Midway</option>
                         <option value="O'Hare">O'Hare</option>
                     </select>
                 </section>
 
                 <section id="time">
-                    <label for="time" class="pre-prompt">leaving the <b>dorm</b> at this time:</label>
+                    <label for="time" class="pre-prompt">leaving the <b>dorm</b> at this time:</label><br>
                     <select name="time" id="time" class="custom-select" required>
                         <option value="00:00">12:00 AM</option>
                         <option value="00:30">12:30 AM</option>
@@ -98,7 +97,7 @@
                 </section>
 
                 <section id="date">
-                    <label for="date" class="pre-prompt">on this date:</label>
+                    <label for="date" class="pre-prompt">on this date:</label><br>
                     <input type="date" id="date" name="date" class="custom-select" required>
                 </section>
 
