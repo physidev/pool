@@ -42,38 +42,17 @@ p {
     font-family: 'Gill Sans';
 }
 
-.custom-input {
+.custom-input::placeholder {
+    color: #525252;
+}
+
+  .custom-input, input[type="text"], input[type="email"], input[type="tel"], .custom-select {
     width: 242px;
     height: 35px;
     margin-bottom: 20px;
-
     border-radius: 10px;
     border: 2px solid #000;
     background: #FFF;
-}
-
-.custom-input::placeholder {
-    font-family: 'Gill Sans';
-    font-size: 20px;
-    color: #525252;
-    text-align: center;
-  }
-
-input[type="text"] {
-    font-family: 'Gill Sans';
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-}
-
-input[type="email"] {
-    font-family: 'Gill Sans';
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-}
-
-input[type="tel"] {
     font-family: 'Gill Sans';
     font-size: 20px;
     color: #000;
@@ -87,6 +66,43 @@ input[type="tel"] {
 
     width: 250px;
     height: 40px; 
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.directional-button {
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #3491FF;
+    margin: 20px;
+    padding: 10px 50px;
+
+    cursor: pointer;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.directional-button:hover {
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #3491FF;
+    margin: 20px;
+    padding: 10px 50px;
+
     cursor: pointer;
 
     color: #FFF;
