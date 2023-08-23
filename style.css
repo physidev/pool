@@ -24,7 +24,7 @@ header {
 }
 
 p {
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .title {
@@ -97,25 +97,13 @@ p {
 }
 
 .directional-button:hover {
-    border-radius: 10px;
-    border: 2px solid #000;
-    background: #3491FF;
-    margin: 20px;
-    padding: 10px 50px;
-
+    background: #1d83ff;
     cursor: pointer;
-
-    color: #FFF;
-    text-align: center;
-    font-family: 'Gill Sans';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .submit-button:hover{
     background-color: #1d83ff;
+    cursor: pointer;
 }
 
 .pre-prompt {
