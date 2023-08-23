@@ -147,3 +147,15 @@ p {
 #steps {
     padding: 0px 20px 0px;
 }
+
+.about-reference {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:-webkit-any-link {
+    color: none;
+    cursor: pointer;
+    text-decoration: none;
+}
